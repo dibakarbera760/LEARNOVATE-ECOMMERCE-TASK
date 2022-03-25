@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+
+<!-- This is how HTML comments look like -->
+<html>
+<!-- the title will appear on the page-->
+<head>
+<title> Job Application From </title>
+</head>
+<body>
+    <style>
+   body {
+      background-image: url('https://source.unsplash.com/1600x900/?nature,water');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    </style>
+
+
+
+<div align="center">
+<!--Adds a heading to the form-->
+<h1> Job Application From</h1>
+<h2 style="color:rgb(243, 81, 7)">Enter your name:</h2>
+<!-- Input type text for small texts, specify size -->
+<input type="text" name="UserName" size=35 maxlength=35 value="">
+<!--Adds spaces - remove and see what happens -->
+</br></br>
+<h2 style="color:blue">Enter Your Mobile No :-</h2>
+<input type="text" name="Deptt" size=35 maxlength=35 value=""> </br> </br>
+<h2 style="color:rgb(241, 7, 38)">Enter your Gmail id :-</h2>
+<input type="text" name="Deptt" size=35 maxlength=35 value=""> </br> </br>
+<h2 style="color:blue">Select Your City:-</h2>
+<br> 
+<select multiple>
+    <option selected disabled>--Select City--</option>
+    <optgroup label="Metros">
+        <option>New Delhi</option>
+        <option>Kolkata</option>
+        <option>Mumbai</option>
+        <option>Chennai</option>
+    </optgroup>
+    <optgroup label="Others">
+        <option>Noida</option>
+        <option>Gurgram</option>
+        <option>Faridabad</option>
+        <option>Gaziabad</option>
+    </optgroup>                            
+</select>
+</br>
+<br> 
+<h2 style="color:blue"><label for="resume">Resume:</label> </h2>
+    <input type="file" id="resume">
+</br>
+<br>
+<form>
+    <h2 style="color:rgb(14, 236, 44)"><label for="pwd">Password:</label></h2>
+    <input type="password" id="pwd" >
+</form>
+</br>
+<h2 style="color:rgb(243, 121, 7)">Select your gender:-</h2>
+<br>
+<input type="radio" name="gender" id="male"> 
+    <label for="male">Male</label>
+    
+    <input type="radio" name="gender" id="female"> 
+    <label for="female">Female</label>
+</br>
+<h2 style="color:blue">Are you ready to start your job Immediately:-</h2>
+<!-- Radio buttons help you choose one out of the many values -->
+<input type="radio" name="exe" value=1>Yes
+<input type="radio" name="exe" value=2>No
+</p>
+<h2 style="color:rgb(11, 236, 11)">Apply For Which Job:-</h2>
+<p>
+<!--Checkbox lets you select multiple options -->
+<input type="checkbox" name="Books"> Web Devlopment
+<input type="checkbox" name="Web"> Finance
+<input type="checkbox" name="Phone"> Human Resource
+<input type="checkbox" name="Magazines"> Marketing and Sales
+</p>
+<h2 style="color:blue">What is current designation?</h2>
+
+<!--Select box lets you choose one of the multiple dropdown options-->
+<select name="moviepref" ><option>
+<option value=1 selected = "true"> Student
+<option value=2 > Working Professional
+<option value=3 > Freshers
+
+</select>
+</br></br>
+<!--submits the information entered in the form by the user -->
+<input type="submit" value="SUBMIT" onclick="msg()">
+<script>
+    function msg() {
+      alert("From Submited Sucessfully");
+    }
+    </script>
+</div>
+</form>
+</body>
+</html>

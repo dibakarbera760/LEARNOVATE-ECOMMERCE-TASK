@@ -1,0 +1,43 @@
+    body{
+        background-image: radial-gradient(rgb(32, 145, 56),rgb(40, 133, 31),rgb(146, 146, 216));
+    }
+    li, dd{
+        border: 2px solid black;
+        width: 200px;
+        height: 100%;
+        margin-left: 150px;
+        margin-top: 10px;
+        list-style-type: none;
+    }
+    h1{
+        font-size: 54px;
+        text-align: center;
+        
+    }
+    .cat{
+        background-image: url(gifs/cat.gif);
+    }
+    .dog{
+        background-image: url(gifs/dog.gif);
+    }
+    .elephant{
+        background-image: url(gifs/elephant.gif);
+    }
+    .fish{
+        background-image: url(gifs/fish.gif);
+    }
+    .fox{
+        background-image: url(gifs/fox.gif);
+    }
+    .zebra{
+        background-image: url(gifs/zebra.gif);
+    }
+    .leopard{
+        background-image: url(gifs/leopard.gif);
+    }.lion{
+        background-image: url(gifs/lion.gif);
+    }.tiger{
+        background-image: url(gifs/tiger.gif);
+    }
+
+
